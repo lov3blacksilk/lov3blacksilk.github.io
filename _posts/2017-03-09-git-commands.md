@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "git-commands"
+date:   2017-03-10 16:06:05 +0800
+categories: jekyll update
+---
+
 #GIT常用命令
 
 1. 谁动了我的代码【重要命令】
