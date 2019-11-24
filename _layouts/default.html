@@ -12,6 +12,7 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" type="text/css" href="./css/flexnav.css">
 
    <!-- Typekit -->
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
@@ -24,7 +25,22 @@
 var WRInitTime=(new Date()).getTime();
 </script>
 <!-- ClickTale end of Top part -->
-
+<div id="nav-background">
+      <div id="nav-container">
+        <header id="nav-header">
+          <h1><a href="#" id="nav-logo">FlexNav</a></h1>
+          <div id="nav-menu-button">MENU</div>
+        </header>
+        <nav>
+          <ul class="nav-ul hide-ul">
+            <li><a class="nav-link active-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">News</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+            <li><a class="nav-link" href="#">About</a></li>
+          </ul>
+        </nav>
+      </div>
+</div>
 <div class="site">
   <div class="title">
     <a href="/">Ding Ding</a>
@@ -66,5 +82,7 @@ pageTracker._trackPageview();
 </script>
 <!-- Google Analytics end -->
 
+<!-- 固定在顶部的导航 -->
+<script src="./js/flex_nav_script.js"></script>
 </body>
 </html>
